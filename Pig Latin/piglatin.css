@@ -1,0 +1,60 @@
+input {
+
+  border-radius:5px;
+  display:inline-block;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  position:absolute;
+  width:300px;
+  height:38px;
+  font-size:28px;
+
+
+}
+
+button {
+  border-radius:5px;
+  display:inline-block;
+  top:0;
+  bottom:0;
+  left:0;
+  right:-525;
+  margin:auto;
+  position:absolute;
+  width:224px;
+  height:38px;
+
+}
+
+label {
+  display:inline-block;
+  top:0;
+  bottom:-100;
+  left:0;
+  right:0;
+  margin:auto;
+  position:absolute;
+  width:300px;
+  height:38px;
+  font-size:28px;
+}
+
+#logo {
+  display:inline-block;
+  top:-125;
+  bottom:0;
+  left:0;
+  right:0;
+  width:300px;
+  margin:auto;
+  position:absolute;
+
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+}

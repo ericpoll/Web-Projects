@@ -1,0 +1,16 @@
+body {
+  background-color:#660066;
+}
+
+#container {
+  margin:150px auto;
+  text-align:center;
+}
+
+#randomcolor {
+  background-color:#008000;
+  font-family:Verdana;
+  font-size:32px;
+  color:#f0f8ff;
+  border-radius:3px;
+}
