@@ -17,11 +17,13 @@ $(document).ready(function (){
           (inputstr.charAt(0) === "u"))
            {
              var voutput = inputstr + vowel;
+             voutput=voutput.toLowerCase();
              $("#translated").html(voutput);
            }
       else
        {
          var coutput = inputstr.slice(1) + inputstr.charAt(0) + consonant;
+         coutput=coutput.toLowerCase();
          $("#translated").html(coutput);
        }
     }
