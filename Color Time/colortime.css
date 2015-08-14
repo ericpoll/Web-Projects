@@ -1,0 +1,23 @@
+
+h1 {
+  font-family:"Orbitron",Sans-serif;
+  font-size:36px;
+
+}
+
+#container {
+  display:flex;
+  flex-direction: column; /*establish y-axis as main axis*/
+  align-items: center; /*centers flex items along cross axis, so along x axis here*/
+}
+
+#time {
+  font-family:"Orbitron",Sans-serif;
+  font-size:52px;
+  padding-bottom:50px;
+}
+
+#color {
+  font-family:"Orbitron",Sans-serif;
+  font-size:52px;
+}
