@@ -1,0 +1,21 @@
+
+body {
+  margin:0 auto;
+  background-color: #446b81;
+  overflow:hidden;
+}
+
+#handle {
+  margin-top: 200px;
+  margin-left: 35px;
+}
+
+.magnet {
+  width:45px;
+  background-color: #FFFFFF;
+  padding:5px 25px;
+  font-family: Times;
+  font-size: 16px;
+  border:1px outset;
+  position:absolute;
+}
