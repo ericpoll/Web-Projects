@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  $("#quarter").hover(function () {
+    $("#quarter").css("cursor","pointer");
+  });
+
   var qposition=$("#quarter").position();
   $("#quarter").draggable({
     containment: "body"});
