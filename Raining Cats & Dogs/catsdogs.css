@@ -1,0 +1,71 @@
+html {
+  height:100%;
+}
+body {
+  height:100%;
+  background-color: #7a7f8b;
+  overflow:hidden;
+}
+
+#btncontainer {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+#container {
+  height:100%;
+  text-align: center;
+  overflow:hidden; /*prevents page from becoming bigger than browser window*/
+}
+
+#dog {
+  display: none;
+}
+
+.btn {
+  margin-top: 10px;
+  height:35px;
+  border-radius: 5px;
+  background-color: #adadad;
+  font-weight: bold;
+  color:#303030;
+}
+
+.animate {
+  animation: falling 1.8s infinite ease-in;
+}
+
+
+
+
+@keyframes falling {
+  from {
+    margin-top:0;
+  }
+
+  to {
+    margin-top:90%;
+  }
+}
+
+@-webkit-keyframes falling {
+  from {
+    margin-top:0;
+  }
+
+  to {
+    margin-top:90%;
+  }
+}
+
+@-moz-keyframes falling {
+  from {
+    margin-top:0;
+  }
+
+  to {
+    margin-top:90%;
+  }
+}
