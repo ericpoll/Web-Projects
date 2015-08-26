@@ -1,0 +1,58 @@
+html {
+  height:100%;
+}
+
+body {
+  margin:0 auto;
+  height:100%;
+  background-color: #50565e;
+}
+
+a {
+  font-family:Arial,Sans-serif;
+  font-size:36px;
+  color:#dedede;
+}
+
+#level {
+  font-family: Arial,Sans-serif;
+  font-size: 36px;
+  color:#dedede;
+}
+
+#container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial,Sans-serif;
+  font-size:36px;
+  color:#dedede;
+  height:75%;
+  width:75%;
+  margin:0 auto;
+}
+
+#intro {
+  font-family: Arial,Sans-serif;
+  text-align: center;
+}
+
+.orb {
+  margin:25px 50px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background-color: #c7c2c3;
+}
+
+.active {
+  background-color: #ede74a;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    text-align: center;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: none;
+}
