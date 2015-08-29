@@ -1,0 +1,192 @@
+body {
+  margin-top:0 auto;
+  text-align: center;
+}
+.first {
+  background-color: #1b7e23;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.second {
+  background-color: #181eac;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.third {
+  background-color: #f9db15;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.fourth {
+  background-color: #a12757;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.fifth {
+  background-color: #d1891c;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.sixth {
+  background-color: #9329c7;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.seventh {
+  background-color: #8eb905;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.eighth {
+  background-color: #310f70;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.ninth {
+  background-color: #009e7d;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.tenth {
+  background-color: #3e8bf0;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.eleventh {
+  background-color: #d7676c;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.twelfth {
+  background-color: #b81010;
+  width:150px;
+  height:150px;
+  display:inline-block;
+  cursor:pointer;
+}
+
+.flipped {
+  animation:flipped 4s;
+}
+
+.skewed {
+  animation:skewed 4s;
+}
+
+.translated {
+  animation:translated 4s;
+}
+
+@keyframes flipped {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+@-webkit-keyframes flipped {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+@-moz-keyframes flipped {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes skewed {
+  from {
+    transform:skewY(0deg);
+  }
+  to {
+    transform:skewY(180deg);
+  }
+}
+
+@-webkit-keyframes skewed {
+  from {
+    transform:skewY(0deg);
+  }
+  to {
+    transform:skewY(180deg);
+  }
+}
+
+@-moz-keyframes skewed {
+  from {
+    transform:skewY(0deg);
+  }
+  to {
+    transform:skewY(180deg);
+  }
+}
+
+@keyframes translated {
+  from {
+    transform:translateY(0);
+  }
+  to {
+    transform:translateY(800px);
+  }
+}
+
+@-webkit-keyframes translated {
+  from {
+    transform:translateY(0);
+  }
+  to {
+    transform:translateY(800px);
+  }
+}
+
+@-moz-keyframes translated {
+  from {
+    transform:translateY(0);
+  }
+  to {
+    transform:translateY(800px);
+  }
+}
