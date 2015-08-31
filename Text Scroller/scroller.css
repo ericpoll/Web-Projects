@@ -1,0 +1,77 @@
+html {
+  height:100%;
+}
+body {
+  height:100%;
+  background-color: #2a2b2b;
+  overflow: hidden;
+}
+
+.topbtn {
+  background-image: url("images/t-arrow.png");
+}
+
+.btmbtn {
+  background-image: url("images/b-arrow.png");
+}
+
+.textscroll {
+  font-family: "Droid Sans",Arial;
+  font-size: 52px;
+  color:#216e2e;
+  animation-name: scroll;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+#switch {
+  width:24px;
+  height:13px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 42%;
+  cursor:pointer;
+}
+
+#container {
+  margin:0 auto;
+  text-align: center;
+  outline-style: none;
+}
+
+#sbtn {
+  height:22px;
+  background-color: #01549f;
+  color:#ffffff;
+  border:none;
+  cursor:pointer;
+}
+
+@keyframes scroll {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 95%;
+  }
+}
+
+@-webkit-keyframes scroll {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left:95%;
+  }
+}
+
+@-moz-keyframes scroll {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 95%;
+  }
+}
