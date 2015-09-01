@@ -1,0 +1,25 @@
+body {
+  height:100%;
+  background-color: #dddddd;
+}
+
+a {
+  text-decoration: none;
+  color:blue;
+}
+
+#message {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Roboto",Arial;
+  font-size: 32px;
+}
+
+#container {
+  margin-top: 250px;
+  text-align: center;
+  color:red;
+  font-family: "Roboto",Arial;
+  font-size: 82px;
+  font-weight: bold;
+}
