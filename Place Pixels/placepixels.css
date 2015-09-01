@@ -1,0 +1,16 @@
+html {
+  height:100%;
+}
+body {
+  height:100%;
+  margin:0 auto;
+  background-color: #938e8a;
+  cursor:pointer;
+}
+
+.pixel {
+  height: 8px;
+  width: 8px;
+  background-color: blue;
+  position: absolute;
+}
