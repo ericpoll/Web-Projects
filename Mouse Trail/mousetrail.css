@@ -1,0 +1,17 @@
+body {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+#part1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:125px;
+  height:125px;
+  background-color: #c4321e;
+  border-radius: 50%;
+  -webkit-box-shadow:0 0 150px #c4321e;
+  -moz-box-shadow: 0 0 150px #c4321e;
+  box-shadow:0 0 150px #c4321e;
+}
