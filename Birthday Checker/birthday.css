@@ -1,0 +1,45 @@
+body {
+  margin:0 auto;
+  text-align: center;
+  font-family: "Fredoka One",Arial;
+  background-color: #eeedec;
+  color:#2e2e2f;
+}
+
+header {
+  height:125px;
+  text-align: center;
+  border-bottom: 1px solid;
+  border-color: #b8b4b0;
+  color:#0d1d88;
+  background-color: #f6f6f6;
+  font-size: 72px;
+}
+
+.red {
+  color:red;
+}
+
+.orange {
+  color:orange;
+}
+
+.yellow {
+  color:yellow;
+}
+
+.green {
+  color:green;
+}
+
+.blue {
+  color:blue;
+}
+
+.indigo {
+  color:indigo;
+}
+
+.violet {
+  color:violet;
+}
