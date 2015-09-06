@@ -1,0 +1,41 @@
+body {
+  background-color: #000000;
+  overflow: hidden;
+}
+#spincontainer {
+  margin-top: 100px;
+  background-image: url(spiral.png);
+  background-size: 724px 662px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:662px;
+  animation: spin 4s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
