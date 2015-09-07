@@ -1,0 +1,48 @@
+html {
+  height:100%;
+}
+
+body {
+  height:100%;
+  background-color: #9ba7ac;
+  margin:0 auto;
+}
+
+img {
+  cursor:pointer;
+}
+
+h1 {
+  text-align: center;
+  display: none;
+}
+
+#imgcontainer {
+  text-align: center;
+}
+
+#masterdrop {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.dropcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightcontainer {
+  border-spacing: 2px;
+  border: 2px solid orange;
+}
+
+.dropbox {
+  width:300px;
+  height:200px;
+  background-color: #464344;
+  margin:0.5px 0.5px;
+}
