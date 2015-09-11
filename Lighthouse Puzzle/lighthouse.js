@@ -1,9 +1,6 @@
 $(document).ready(function () {
 
-  $("img").draggable({
-    snap:".dropbox",
-    snapMode:"inner"
-  });
+  $("img").draggable();
   $(".dropbox").droppable();
 
   $(".dropbox").on("drop",function(event,ui) {
@@ -13,11 +10,26 @@ $(document).ready(function () {
     if (dropdata === dragdata) { //add border if there is a correct match
       $(this).addClass("rightcontainer");
     }
+
+    var checkRight=0;
+    $(".dropbox").each(function () {
+      if ($(this).hasClass("rightcontainer")) {
+        checkRight=checkRight + 1;
+      }
+    });
+
+    if (checkRight === 6) { //all pieces are in the correct positions
+      $("h2").css("visibility","visible");
+    }
   });
 
   $(".dropbox").on("dropout",function (event,ui) {
     if ($(this).hasClass("rightcontainer")) {
       $(this).removeClass("rightcontainer"); //remove border if draggable moved outside
+    }
+
+    if ($("h2").css("visibility") == "visible") {
+      $("h2").css("visibility","hidden"); //switch back to hidden
     }
   });
   //assign values below so the draggable items can be matched with their containers

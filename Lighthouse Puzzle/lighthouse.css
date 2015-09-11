@@ -6,15 +6,22 @@ body {
   height:100%;
   background-color: #9ba7ac;
   margin:0 auto;
+  overflow: hidden;
 }
 
 img {
   cursor:pointer;
 }
 
-h1 {
+h2 {
   text-align: center;
-  display: none;
+  font-family: "Libre Baskerville",Arial;
+  color: #464344;
+  visibility: hidden;
+}
+
+a {
+  color: orange;
 }
 
 #imgcontainer {
@@ -42,7 +49,7 @@ h1 {
 
 .dropbox {
   width:300px;
-  height:200px;
+  height:202px;
   background-color: #464344;
   margin:0.5px 0.5px;
 }
