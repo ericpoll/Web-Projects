@@ -1,0 +1,28 @@
+html {
+  height:100%;
+}
+body {
+  height:100%;
+  background-color: #e6ebff;
+  overflow: hidden;
+}
+
+.container-fluid {
+  height:100%;
+  position: relative;
+  top:20%;
+}
+
+.info {
+  margin-bottom: 8%;
+  font-family: "Yanone Kaffeesatz",Arial;
+  font-size: 1.15em;
+}
+
+.img-thumbnail {
+  background-color: #1f1f1f;
+}
+
+.btn-primary {
+  margin-bottom: 3%;
+}

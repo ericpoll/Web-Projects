@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Endangered Species</title>
+    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
+    <link type="text/css" rel="stylesheet" href="especies.css">
+    <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="especies.js"></script>
+    <script type="text/javascript" src="specieslist.js"></script>
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="text-center">
+          <button type="button" class="btn btn-primary btn-lg">Get Species</button>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 info">
+            <div class="info">Name: <span id="name"></span></div>
+            <div class="info">Status: <span id="status"></span></div>
+            <div class="info">Population: <span id="population"></span></div>
+            <div class="info">Weight: <span id="weight"></span></div>
+            <div class="info">Habitat: <span id="habitats"></span></div>
+            <div class="info">Biography: <span id="bio"></span></div>
+          </div>
+          <div class="col-sm-6">
+          <img id="image" class="img-responsive img-rounded img-thumbnail" src="">
+        </div>
+    </div>
+  </div>
+  </body>
+</html>
